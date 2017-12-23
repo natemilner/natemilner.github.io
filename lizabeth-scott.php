@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Lizabeth Scott | Nathan Milner</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:400,700|Bitter:400,700" rel="stylesheet"> 
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+		<?php include_once("analyticstracking.php") ?>
+	</head>
+	<body>
+  <div id="main">
+	<div id="stage">
+		<div class="intwrap blue">
+			<div id="title" class="blue">
+				<h2>Exploring the Piazza dell&rsquo;Arte: Lizabeth Scott</h2>
+			</div>
+			<p>Our series exploring the lives and works of the artists featured on the Piazza dell’Arte at Scranton’s Courthouse Square continues today with a profile of movie star Lizabeth Scott, described by Halliwell&#8217;s Filmgoer&#8217;s and Video Viewer&#8217;s Companion as &#8220;&#8230;a box office concoction of blonde hair, defiant expression and immobile upper lip.&#8221;<img class="alignright" style="border: 0pt none; margin: 3px; float: right;" src="images/lizbethscott-300.jpg" alt="Lizbeth Scott" width="237" height="300" /></p>
+			<p>Scott was born Emma Matzo in the Pine Brook Section of Scranton on Sept. 29, 1922, and attended Central High School and <a title="Marywood" href="http://www.marywood.edu" target="_blank">Marywood College</a>, before moving to New York to study at Alvienne School of Drama in New York.</p>
+			<p>While working with a small Midtown Manhattan summer stock company in 1942, Scott got her first break when she was tapped to be <a title="Tallulah Bankhead" href="http://en.wikipedia.org/wiki/Tallulah_Bankhead" target="_blank">Tallulah Bankhead</a>’s understudy in the Thornton Wilder play <a title="The Skin of Our Teeth" href="http://en.wikipedia.org/wiki/The_Skin_of_Our_Teeth" target="_blank">&#8220;The Skin of Our Teeth.&#8221;</a></p>
+			<p>After leaving the production briefly, Scott returned and was eventually given a leading role in “The Skin of Our Teeth.” This led to a lead role during the Boston run of the play.  Scott took on the name “Elizabeth” during the Broadway production but, the day after opening night in Boston, dropped the &#8220;e,&#8221; she said, &#8220;just to be different.&#8221;</p>
+			<p>Soon after, she made her first screen test at Warner Brothers, where she met Hal Wallis who had discovered her during the New York run of “The Skin of Our Teeth.” The test did not go well but Wallis recognized her potential. Wallis resigned as production head at Warners in 1944 to form his own production company, releasing films primarily through Paramount. He signed Scott to a contract and she made her film debut in the Wallis-produced “You Came Along” in 1945.</p>
+			<p>The 23-year-old Scott plays an escort that falls in love with a G.I. dying of leukemia. Her screen presence and sensual, captivating voice immediately invited comparisons to Lauren Bacall.  Paramount publicity dubbed her &#8220;The Threat&#8221; and she was cast as the in a series of <a title="Film Noir" href="http://en.wikipedia.org/wiki/Film_noir" target="_blank">film noir</a> thrillers beginning with <a title="The Strange Love of Martha Ivers" href="http://en.wikipedia.org/wiki/The_Strange_Love_of_Martha_Ivers" target="_blank">&#8220;The Strange Love of Martha Ivers&#8221;</a> in 1946, featuring <a title="Barbara Stanwyck" href="http://en.wikipedia.org/wiki/Barbara_Stanwyck" target="_blank">Barbara Stanwcyk</a> and <a title="Kirk Douglas" href="http://en.wikipedia.org/wiki/Kirk_Douglas" target="_blank">Kirk Douglas</a> in his film debut.<img class="alignleft" style="border: 0pt none; margin: 3px; float: left;" src="images/deadreckoning.jpg" alt="Dead Reckoning" width="220" height="336" /></p>
+			<p>In 1947, Scott starred opposite <a title="Humphrey Bogart" href="http://en.wikipedia.org/wiki/Humphrey_Bogart" target="_blank">Humphrey Bogart</a> in the noir thriller <a title="Dead Reckoning" href="http://en.wikipedia.org/wiki/Dead_Reckoning_%281947_movie%29" target="_blank">&#8220;Dead Reckoning&#8221;</a> taking her first crack at the archetypal <a title="Femme Fatale" href="http://en.wikipedia.org/wiki/Femme_fatale" target="_blank">femme fatale</a> role. Bogart would refer to her in the film as &#8220;Cinderella with a husky voice.&#8221; At the age of 25, her billing and portrait were equal to Bogart&#8217;s on the film&#8217;s advertisements.</p>
+			<p>She was paired with Kirk Douglas and Burt Lancaster as a nightclub singer in 1947’s <a title="I Walk Alone" href="http://en.wikipedia.org/wiki/I_Walk_Alone" target="_blank">&#8220;I Walk Alone,&#8221;</a> a noirish story of betrayal and vengeance; then worked with Lancaster again in <a title="Desert Fury" href="http://en.wikipedia.org/wiki/Desert_Fury" target="_blank">&#8220;Desert Fury,&#8221;</a> a story of love, deception and corruption filmed in Technicolor.</p>
+			<p>According to film historian Eddie Muller, Scott appeared in more film noir than any other actress with nearly 15 noir thrillers in her credits; and in 1949, she appeared in <a title="Too Late for Tears" href="http://en.wikipedia.org/wiki/Too_Late_for_Tears" target="_blank">&#8220;Too Late for Tears&#8221;</a> playing the avaricious Jane Palmer, a hateful wife who murders her husband for money.</p>
+			<p>She appeared in 21 films between 1945 and 1957, mostly for Wallis and Paramount, with her last major role being 1957’s <a title="Loving You" href="http://en.wikipedia.org/wiki/Loving_You" target="_blank">&#8220;Loving You&#8221;</a> opposite <a title="Elvis Presley" href="http://en.wikipedia.org/wiki/Elvis_Presley" target="_blank">Elvis Presley</a>. She did occasionally guest-star on television in the following years and had a small role in the British film <a title="Pulp" href="http://en.wikipedia.org/wiki/Pulp_%28film%29" target="_blank">“Pulp”</a> in 1972 featuring Michael Caine and Mickey Rooney.<img class="alignright" style="border: 0pt none; margin: 3px; float: right;" src="images/toolate.jpg" alt="Too Late for Tears" width="271" height="337" /></p>
+			<p>Scott had her name legally changed to “Lizabeth Scott” in 1949 after using it professionally for four years. She has a star on the <a title="Walk of Fame" href="http://www.hollywoodchamber.net/icons/index.asp" target="_blank">Hollywood Walk of Fame</a> for her contribution to motion pictures.</p>
+			<p>In later years, she retreated from public view, though she appeared at an American Film Institute tribute to Hal Wallis who helped launch her career and more recently at the AMPAS Centennial Celebration for Barbara Stanwyck in May 2007.</p>
+			<p><img class="alignright" style="border: 0pt none; margin: 3px; float: right;" src="images/cfplogo.jpg" alt="CFP Logo" width="268" height="98" /><strong>Spiritual Heir:</strong> While we could point to any of the <a title="Electric Theatre" href="http://www.electriccityr.com/electric-theatre" target="_blank">actresses</a> from the <a title="Electric Theatre site" href="http://www.electrictheatre.org" target="_blank">Electric Theatre</a> as proof that the Scranton area continues to produce talented female performers, instead we’ll focus on the medium that made Scott a star and highlight the efforts of the actors, actresses and filmmakers of the <a title="Community Film Project" href="http://www.communityfilmproject.org" target="_blank">Community Film Project</a> to foster the local film scene. The CFP formed in 2004 and, since that time, has helped countless local filmmakers achieve their vision. The CFP once again produced a series of <a title="CFP Summer Shorts" href="http://www.communityfilmproject.org/blog/2008/05/cfp-shorts.html" target="_blank">CFP Shorts</a> shown before summer blockbusters at <a title="The Endless Mts. Theatre" href="http://www.endlessmountainstheatre.com/" target="_blank">The Endless Mountains Theatre</a>. Thanks to the CFP, Scott’s legacy of strong Northeastern Pennsylvania women in film is sure to live on.</p>
+		</div>
+	</div>
+	
+	<?php include_once("sidebar-writing.php") ?>
+    
+  </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</body>
+</html>
