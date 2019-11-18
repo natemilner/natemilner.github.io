@@ -920,7 +920,6 @@ max-width: 100%;
 							"sidebar"
 							"footer";
 	grid-template-columns: 94%;
-/*	grid-template-rows: minmax(4rem, auto) minmax(20rem, auto);*/
 	grid-column-gap: 0;
 	grid-row-gap: 0.5rem;
 	}
@@ -932,6 +931,16 @@ max-width: 100%;
 	}
 	.sidebar {
 		margin-top: 1rem;
+	}
+	#home {
+	grid-template-areas: 	"header"
+							"modulel"
+							"modulec"
+							"moduler"
+							"footer";
+	grid-template-columns: 1fr;
+	grid-column-gap: 0;
+	grid-row-gap: 0.5rem;
 	}
 	
 }
