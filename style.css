@@ -52,18 +52,26 @@ text-align: right;
 .modr {
 background: #fff;
 border: 7px solid #003049;	
-border-radius: 5px;	
+border-radius: 10px;	
 padding: 4rem 2rem;
 }
 .modr a {
-color: #003049;	
+border-bottom: 1px solid #003049;	
+color: #003049;
+text-decoration: none;
+transition: all 600ms ease;	
+}
+.modr a:hover {
+border-bottom: 1px dashed #FCBF49;
+color: #003049;
+text-decoration: none;	
 }
 .smctabtn {
 padding: 0.5rem 0.5rem;
 text-align: center;
 text-transform: uppercase;
 text-decoration: none;
-margin: 5rem auto 0;
+margin: 7rem auto 0;
 font-size: 18px;
 display: block;
 width: 70%;
@@ -71,21 +79,43 @@ line-height: 1.2;
 font-weight: 600;
 transition: all 500ms ease;
 background: #FCBF49;
-border: 1px solid #FCBF49;
+border: 1px solid #FCBF49 !important;
 color: #003049;	
 }
 .smctabtn:hover {
 background: #E9F3F8;
-border: 1px solid #FCBF49;	
+border: 1px solid #FCBF49 !important;	
+}
+#mc_embed_signup {
+margin: 7rem 0 0;	
+}
+#mce-EMAIL {
+border: 1px solid #003049;
+padding: 0.3rem 0;	
+}
+#mc-embedded-subscribe {
+background: #003049;
+border-top: 1px solid #003049;
+border-right: 1px solid #003049;
+border-bottom: 1px solid #003049;
+border-left: none;
+color: #fff;
+font-family: "Raleway",sans-serif;
+padding: 0.29rem 0.4rem;
+text-align: center;	
+}
+#mc-embedded-subscribe:hover {
+background: #E9F3F8;
+color: #003049;	
 }
 .mod .imglink {
 background: #fff;
 border: 7px solid #003049;
-border-radius: 5px;
+border-radius: 10px;
 color: #003049;
 display: block;
 font-size: 26px;
-font-weight: bold;
+font-weight: normal;
 line-height: 1.2;
 padding: 0 0 0.5rem;
 text-align: center;
