@@ -147,11 +147,6 @@ background: #FCBF49;
 border-color: #F77F00;
 
 }
-/*.mod img {
-height: auto;
-margin: 0 0 0.5rem;
-width: 100%;	
-}*/
 .mod.modl {
 grid-area: modulel;	
 }
@@ -396,24 +391,6 @@ border: 1px solid #D62828;
 color: #003049;	
 }
 
-
-/*.reslist ul li:before {
-border-left: 1px solid #333;
-border-bottom: 1px solid #333;	
-content: '';
-height: 10px;
-left: 0;
-position: absolute;
-top: 0;
-width: 10px;	
-}
-.reslist ul li ul li:before {
-border-left: 1px dashed #333;
-border-bottom: 1px dashed #333;	
-}*/
-
-
-
 .box {
 background: #fff;
 border: 1px solid #333;
@@ -553,14 +530,10 @@ top: -0.5rem;
 -moz-transform: skew(-20deg); 
 -o-transform: skew(-20deg);
 }
-
-
-
 .alignright {
-	float: right;
-	margin: 1rem;
+float: right;
+margin: 1rem;
 }
-
 .socicon {
 background: #FCBF49;
 color: #003049;
@@ -576,12 +549,6 @@ transition: all 500ms ease;
 background: #F77F00;
 color: #003049;
 }
-
-
-
-
-
-
 
 #stage {
     -moz-box-align: center;
@@ -972,15 +939,9 @@ max-width: 100%;
 	grid-column-gap: 0;
 	grid-row-gap: 0.5rem;
 	}
-	.title {
-		width: 92.5%;
-	}
-	h2 {
-		font-size: 20px;
-	}
-	.sidebar {
-		margin-top: 1rem;
-	}
+	.title { width: 92.5%; }
+	h2 { font-size: 20px; }
+	.sidebar { margin-top: 1rem; }
 	#home {
 	grid-template-areas: 	"header"
 							"modulel"
@@ -991,7 +952,7 @@ max-width: 100%;
 	grid-column-gap: 0;
 	grid-row-gap: 0.5rem;
 	}
-	
+	h1.pop-up { font: bold 42px/1 "Raleway"; }
 }
 
 @media screen and (max-width: 320px) {
