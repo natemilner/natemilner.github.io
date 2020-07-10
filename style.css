@@ -32,7 +32,7 @@ body {
 #home {
 	display: grid;
 	grid-template-areas: 	"header header header"
-							"modulel modulec moduler"
+							"modulel modulel moduler"
 							"footer footer footer";
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-column-gap: 30px;
@@ -49,29 +49,48 @@ grid-area: header;
 grid-area: footer;
 text-align: right;	
 }
-.modr {
+.entry {
+border-bottom: 1px dashed #aaa;
+margin: 0 0 1rem;
+min-height: 8rem;	
+padding: 0 1rem 0 8rem;	
+position: relative;	
+}
+.entry:last-child {
+border-bottom: none;
+margin: 0 0 -1rem;	
+}
+.entry h2 {
+color: #003049;	
+font-size: 24px;
+}
+.entry img {
+height: auto;	
+position: absolute;
+left: 0;
+top: 0;
+width: 6rem;	
+}
+.mod a {
+color: #003049;
+transition: all 400ms ease;	
+}
+.mod a:hover {
+color: #FCBF49;
+text-decoration: none;
+}
+.modl, .modr {
 background: #fff;
 border: 7px solid #003049;	
 border-radius: 10px;	
-padding: 4rem 2rem;
-}
-.modr a {
-border-bottom: 1px solid #003049;	
-color: #003049;
-text-decoration: none;
-transition: all 600ms ease;	
-}
-.modr a:hover {
-border-bottom: 1px dashed #FCBF49;
-color: #003049;
-text-decoration: none;	
+padding: 2rem;
 }
 .smctabtn {
 padding: 0.5rem 0.5rem;
 text-align: center;
 text-transform: uppercase;
 text-decoration: none;
-margin: 7rem auto 0;
+margin: 3rem auto;
 font-size: 18px;
 display: block;
 width: 70%;
@@ -87,7 +106,7 @@ background: #E9F3F8;
 border: 1px solid #FCBF49 !important;	
 }
 #mc_embed_signup {
-margin: 7rem 0 0;	
+margin: 0;	
 }
 #mce-EMAIL {
 border: 1px solid #003049;
@@ -128,11 +147,11 @@ background: #FCBF49;
 border-color: #F77F00;
 
 }
-.mod img {
+/*.mod img {
 height: auto;
 margin: 0 0 0.5rem;
 width: 100%;	
-}
+}*/
 .mod.modl {
 grid-area: modulel;	
 }
