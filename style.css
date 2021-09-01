@@ -6,22 +6,19 @@ Yellow: FCBF49
 White: EAE2B7
 
 */
-
-
 body {
-    background: #E9F3F8;
-	color: #3e3e3e;
-    font-family: "Raleway",sans-serif;
-    font-size: 16px;
-    font-weight: 100;
-    line-height: 1.5;
+background: #E9F3F8;
+color: #3e3e3e;
+font-family: "Raleway",sans-serif;
+font-size: 16px;
+font-weight: 100;
+line-height: 1.5;
 }
 #wrapper {
 	display: grid;
 	grid-template-areas: 	"content sidebar"
 							"footer footer";
 	grid-template-columns: 2fr 1fr;
-/*	grid-template-rows: minmax(4rem, auto) minmax(20rem, auto);*/
 	grid-column-gap: 30px;
 	grid-row-gap: 1.5rem;
 	max-width: 1100px;
@@ -50,26 +47,43 @@ grid-area: footer;
 text-align: right;	
 }
 .entry {
-border-bottom: 1px dashed #aaa;
+display: inline-grid;
 margin: 0 0 1rem;
 min-height: 8rem;	
-padding: 0 1rem 0 8rem;	
+padding: 19rem 3rem 0 0;	
 position: relative;	
+width: 42%;
 }
-.entry:last-child {
-border-bottom: none;
-margin: 0 0 -1rem;	
+.primentry { 
+border-bottom: 1px dashed #aaa;
+min-height: 18.5rem;
+padding: 0 1rem 0 12.9rem;
+width: 70%; 
 }
-.entry h2 {
+.entry h2, h4.homesub {
 color: #003049;	
 font-size: 24px;
 }
+.bookentry h2 {
+color: #003049;
+font-family: "Raleway",sans-serif; 
+font-size: 20px;
+margin: 0 0 0.5rem;	
+text-transform: uppercase;
+}
+.bookentry p {
+margin: 0 0 0.5rem;	
+}
 .entry img {
+box-shadow: 0 0 3px #333;
 height: auto;	
 position: absolute;
 left: 0;
 top: 0;
-width: 6rem;	
+width: 68%; /*5rem;*/	
+}
+.primentry img {
+width: 11.5rem;	
 }
 .mod a {
 color: #003049;
@@ -105,13 +119,8 @@ color: #003049;
 background: #E9F3F8;
 border: 1px solid #FCBF49 !important;	
 }
-#mc_embed_signup {
-margin: 0;	
-}
-#mce-EMAIL {
-border: 1px solid #003049;
-padding: 0.3rem 0;	
-}
+#mc_embed_signup { margin: 0; }
+#mce-EMAIL { border: 1px solid #003049; padding: 0.3rem 0; }
 #mc-embedded-subscribe {
 background: #003049;
 border-top: 1px solid #003049;
@@ -140,22 +149,11 @@ padding: 0 0 0.5rem;
 text-align: center;
 text-decoration: none;
 transition: all 500ms ease;
-
 }
-.mod .imglink:hover {
-background: #FCBF49;
-border-color: #F77F00;
-
-}
-.mod.modl {
-grid-area: modulel;	
-}
-.mod.modc {
-grid-area: modulec;	
-}
-.mod.modr {
-grid-area: moduler;	
-}
+.mod .imglink:hover { background: #FCBF49; border-color: #F77F00; }
+.mod.modl { grid-area: modulel;	}
+.mod.modc { grid-area: modulec;	}
+.mod.modr { grid-area: moduler;	}
 
 h1.pop-up span:first-child {
 	-webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -216,18 +214,15 @@ h1.pop-up {
 	-webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 550ms both;
 	        animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 550ms both;
 }
-
 .subrow {
 display: flex; 
 flex-direction: row;
 margin: 7rem 0 0;	
 }
-
 .swing:hover {
 	-webkit-animation: swing-bottom-fwd 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: swing-bottom-fwd 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-
 .card {
     backface-visibility: hidden;
 	display: none;
@@ -242,42 +237,20 @@ margin: 7rem 0 0;
 .card:last-child {
 	margin-right: 0;
 }
-
 .front {
     background: #2dccb8 none repeat scroll 0 0;
     z-index: 20;
 }
-.topblue {
-	background: #6184d8;
-	
-}
-.subblue {
-	background: #8da4d9;
-}
-.toplgreen {
-	background: #50c5b7;
-}
-.sublgreen {
-	background: #78c4bb;
-}
-.topgreen {
-	background: #9cec5b;
-}
-.subgreen {
-	background: #a5ed6b;
-}
-.topyellow {
-	background: #f0f465;
-}
-.subyellow {
-	background: #eff538;
-}
-.toppurp {
-	background: #533a71;
-}
-.subpurp {
-	background: #5e5070;
-}
+.topblue { background: #6184d8; }
+.subblue { background: #8da4d9; }
+.toplgreen { background: #50c5b7; }
+.sublgreen { background: #78c4bb; }
+.topgreen { background: #9cec5b; }
+.subgreen {	background: #a5ed6b; }
+.topyellow { background: #f0f465; }
+.subyellow { background: #eff538; }
+.toppurp { background: #533a71; }
+.subpurp { background: #5e5070; }
 .face {
     backface-visibility: hidden;
     border-radius: 10px;
@@ -304,12 +277,7 @@ margin: 7rem 0 0;
     text-align: center;
 }
 
-
-
-.wrap {
-	position: relative;
-	width: 100%;
-}
+.wrap { position: relative; width: 100%; }
 .intwrap {
 	grid-area: content;
 	position: relative;
@@ -321,9 +289,6 @@ border: 1px dashed #003049;
 min-height: 86vh;
 padding: 3rem 1rem 2rem;
 position: relative;
-}
-.content a {
-color: #003049;	
 }
 .reslist {
 list-style: none;
@@ -346,24 +311,16 @@ font-weight: 900;
 margin: 0 0 0.5rem -1rem !important;
 padding: 0.3rem 0.5rem;	
 }
-.reslist ul.red {
-border-left: 5px solid #D62828;
-}
-.reslist ul.orange {
-border-left: 5px solid #F77F00;
-}
-.reslist ul.yellow {
-border-left: 5px solid #FCBF49;	
-}
-.sidebar a {
-color: #003049;	
-}
+.reslist ul.red { border-left: 5px solid #D62828; }
+.reslist ul.orange { border-left: 5px solid #F77F00; }
+.reslist ul.yellow { border-left: 5px solid #FCBF49; }
+.content a, .sidebar a { color: #003049; }
 .ctabtn {
 padding: 0.7rem 1rem;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    margin: 0 auto;
+text-align: center;
+text-transform: uppercase;
+text-decoration: none;
+margin: 0 auto;
     font-size: 26px;
     display: block;
     width: 45%;
@@ -405,10 +362,7 @@ padding: 2rem;
 text-align: center;
 width: 17rem;	
 }
-#subbox, #card {
-display: none;
-font-size: 32px;
-}
+#subbox, #card { display: none; font-size: 32px; }
 .bounce {
 	display: block !important;
 	-webkit-animation: bounce-in-top 0.5s 1000ms both;
@@ -448,7 +402,6 @@ font-size: 32px;
 	-webkit-animation: swing-in-left-fwd 1.1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 850ms both;
 	        animation: swing-in-left-fwd 1.1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 850ms both;
 }
-
 #cardsix.swingleft {
 	-webkit-animation: swing-in-left-fwd 1.1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 1600ms both;
 	        animation: swing-in-left-fwd 1.1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 1600ms both;
@@ -457,12 +410,10 @@ font-size: 32px;
 	-webkit-animation: swing-in-left-fwd 1.1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 1850ms both;
 	        animation: swing-in-left-fwd 1.1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 1850ms both;
 }
-
 #cardnine.swingleft {
 	-webkit-animation: swing-in-left-fwd 1.1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 2600ms both;
 	        animation: swing-in-left-fwd 1.1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 2600ms both;
 }
-
 #cardeleven.swingleft {
 	-webkit-animation: swing-in-left-fwd 1.1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 3350ms both;
 	        animation: swing-in-left-fwd 1.1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 3350ms both;
@@ -470,16 +421,6 @@ font-size: 32px;
 #cardtwelve.swingleft {
 	-webkit-animation: swing-in-left-fwd 1.1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 3600ms both;
 	        animation: swing-in-left-fwd 1.1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 3600ms both;
-}
-
-
-.wobble {
-	display: block !important;
-	height: 1rem;
-	margin: 0 auto;
-	width: 1rem;
-	-webkit-animation: wobble-hor-top 1.2s infinite both;
-	        animation: wobble-hor-top 1.2s infinite both;
 }
 
 .sidebar {
@@ -490,10 +431,6 @@ font-size: 32px;
 	height: fit-content;
 	margin-top: 5.5rem;
 	padding: 1rem;
-	/*position: fixed;
-	right: 0;
-	top: 5%;
-	width: 27%;*/
 }
 h3 {
 background: #003049;
@@ -504,13 +441,12 @@ margin: -1rem -1rem 1rem -1rem;
 padding: 0.8rem;
 text-transform: uppercase;	
 }
-
-h2 {
-	font-family: "Bitter", serif;
-	font-size: 28px;
-	font-weight: bold;
-	line-height: 1;
-	margin: 0 0 1rem;
+h2, h4 {
+font-family: "Bitter", serif;
+font-size: 28px;
+font-weight: bold;
+line-height: 1;
+margin: 0 0 1rem;
 }
 .title { 
 background: #003049;
@@ -530,10 +466,7 @@ top: -0.5rem;
 -moz-transform: skew(-20deg); 
 -o-transform: skew(-20deg);
 }
-.alignright {
-float: right;
-margin: 1rem;
-}
+.alignright { float: right; margin: 1rem; }
 .socicon {
 background: #FCBF49;
 color: #003049;
@@ -545,11 +478,7 @@ text-align: center;
 text-decoration: none;
 transition: all 500ms ease;	
 }
-.socicon:hover {
-background: #F77F00;
-color: #003049;
-}
-
+.socicon:hover { background: #F77F00; color: #003049; }
 #stage {
     -moz-box-align: center;
     -moz-box-direction: normal;
@@ -642,294 +571,8 @@ color: #003049;
             transform-origin: bottom;
   }
 }
-
-/* ----------------------------------------------
- * Generated by Animista on 2017-7-19 12:43:25
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
-
-/**
- * ----------------------------------------
- * animation bounce-in-top
- * ----------------------------------------
- */
-@-webkit-keyframes bounce-in-top {
-  0% {
-    -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-    opacity: 0;
-  }
-  38% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-    opacity: 1;
-  }
-  55% {
-    -webkit-transform: translateY(-65px);
-            transform: translateY(-65px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  72% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-  81% {
-    -webkit-transform: translateY(-28px);
-            transform: translateY(-28px);
-    -webkit-animation-timing-function: ease-in;
-  }
-  90% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-  95% {
-    -webkit-transform: translateY(-8px);
-            transform: translateY(-8px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-}
-@keyframes bounce-in-top {
-  0% {
-    -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-    opacity: 0;
-  }
-  38% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-    opacity: 1;
-  }
-  55% {
-    -webkit-transform: translateY(-65px);
-            transform: translateY(-65px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  72% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-  81% {
-    -webkit-transform: translateY(-28px);
-            transform: translateY(-28px);
-    -webkit-animation-timing-function: ease-in;
-  }
-  90% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-  95% {
-    -webkit-transform: translateY(-8px);
-            transform: translateY(-8px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-}
-
-
-/* ----------------------------------------------
- * Generated by Animista on 2017-7-19 12:58:18
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
-
-/**
- * ----------------------------------------
- * animation swing-in-top-bck
- * ----------------------------------------
- */
-@-webkit-keyframes swing-in-top-bck {
-  0% {
-    -webkit-transform: rotateX(70deg);
-            transform: rotateX(70deg);
-    -webkit-transform-origin: top;
-            transform-origin: top;
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: rotateX(0deg);
-            transform: rotateX(0deg);
-    -webkit-transform-origin: top;
-            transform-origin: top;
-    opacity: 1;
-  }
-}
-@keyframes swing-in-top-bck {
-  0% {
-    -webkit-transform: rotateX(70deg);
-            transform: rotateX(70deg);
-    -webkit-transform-origin: top;
-            transform-origin: top;
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: rotateX(0deg);
-            transform: rotateX(0deg);
-    -webkit-transform-origin: top;
-            transform-origin: top;
-    opacity: 1;
-  }
-}
-
-/* ----------------------------------------------
- * Generated by Animista on 2017-7-19 13:26:29
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
-
-/**
- * ----------------------------------------
- * animation swing-in-left-fwd
- * ----------------------------------------
- */
-@-webkit-keyframes swing-in-left-fwd {
-  0% {
-    -webkit-transform: rotateY(100deg);
-            transform: rotateY(100deg);
-    -webkit-transform-origin: left;
-            transform-origin: left;
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: rotateY(0);
-            transform: rotateY(0);
-    -webkit-transform-origin: left;
-            transform-origin: left;
-    opacity: 1;
-  }
-}
-@keyframes swing-in-left-fwd {
-  0% {
-    -webkit-transform: rotateY(100deg);
-            transform: rotateY(100deg);
-    -webkit-transform-origin: left;
-            transform-origin: left;
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: rotateY(0);
-            transform: rotateY(0);
-    -webkit-transform-origin: left;
-            transform-origin: left;
-    opacity: 1;
-  }
-}
-
-
-/* ----------------------------------------------
- * Generated by Animista on 2017-7-20 15:29:26
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
-
-/**
- * ----------------------------------------
- * animation wobble-hor-top
- * ----------------------------------------
- */
-@-webkit-keyframes wobble-hor-top {
-  0%,
-  100% {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
-    -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
-  }
-  15% {
-    -webkit-transform: translateX(-30px) rotate(6deg);
-            transform: translateX(-30px) rotate(6deg);
-  }
-  30% {
-    -webkit-transform: translateX(15px) rotate(-6deg);
-            transform: translateX(15px) rotate(-6deg);
-  }
-  45% {
-    -webkit-transform: translateX(-15px) rotate(3.6deg);
-            transform: translateX(-15px) rotate(3.6deg);
-  }
-  60% {
-    -webkit-transform: translateX(9px) rotate(-2.4deg);
-            transform: translateX(9px) rotate(-2.4deg);
-  }
-  75% {
-    -webkit-transform: translateX(-6px) rotate(1.2deg);
-            transform: translateX(-6px) rotate(1.2deg);
-  }
-}
-@keyframes wobble-hor-top {
-  0%,
-  100% {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
-    -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
-  }
-  15% {
-    -webkit-transform: translateX(-30px) rotate(6deg);
-            transform: translateX(-30px) rotate(6deg);
-  }
-  30% {
-    -webkit-transform: translateX(15px) rotate(-6deg);
-            transform: translateX(15px) rotate(-6deg);
-  }
-  45% {
-    -webkit-transform: translateX(-15px) rotate(3.6deg);
-            transform: translateX(-15px) rotate(3.6deg);
-  }
-  60% {
-    -webkit-transform: translateX(9px) rotate(-2.4deg);
-            transform: translateX(9px) rotate(-2.4deg);
-  }
-  75% {
-    -webkit-transform: translateX(-6px) rotate(1.2deg);
-            transform: translateX(-6px) rotate(1.2deg);
-  }
-}
-img {
-height: auto;
-max-width: 100%;	
-}
+img { height: auto; max-width: 100%; }
 /************************MEDIA QUERIES*********************/
-@media (min-width: 1200px) {
-	
-	
-}
-@media (max-width: 1024px) {
-	
-	
-}
-@media (max-width: 959px) {
-	
-	
-	
-}
 @media (max-width: 767px) {
 	#wrapper {
 	grid-template-areas: 	"content"
@@ -954,9 +597,3 @@ max-width: 100%;
 	}
 	h1.pop-up { font: bold 42px/1 "Raleway"; }
 }
-
-@media screen and (max-width: 320px) {
-	
-	
-
-} 
