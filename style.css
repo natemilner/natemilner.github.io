@@ -50,7 +50,7 @@ text-align: right;
 display: inline-grid;
 margin: 0 0 1rem;
 min-height: 8rem;	
-padding: 19rem 3rem 0 0;	
+padding: 1rem 3rem 0 0;	
 position: relative;	
 width: 42%;
 }
@@ -67,22 +67,28 @@ font-size: 24px;
 .bookentry h2 {
 color: #003049;
 font-family: "Raleway",sans-serif; 
-font-size: 20px;
+font-size: 18px;
+font-weight: normal;
 margin: 0 0 0.5rem;	
-text-transform: uppercase;
+text-align: center;
 }
 .bookentry p {
 margin: 0 0 0.5rem;	
 }
 .entry img {
 box-shadow: 0 0 3px #333;
-height: auto;	
+height: auto;
+}
+.bookentry img {
+width: 68%; 
+margin: 0 auto 1rem;
+display: block;
+}
+
+.primentry img {
 position: absolute;
 left: 0;
 top: 0;
-width: 68%; /*5rem;*/	
-}
-.primentry img {
 width: 11.5rem;	
 }
 .mod a {
