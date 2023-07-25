@@ -588,7 +588,7 @@ img { height: auto; max-width: 100%; }
 	grid-column-gap: 0;
 	grid-row-gap: 0.5rem;
 	}
-	.title { width: 92.5%; }
+	.title { width: 95.5%; left: -0.8rem; }
 	h2 { font-size: 20px; }
 	.sidebar { margin-top: 1rem; }
 	#home {
@@ -602,4 +602,9 @@ img { height: auto; max-width: 100%; }
 	grid-row-gap: 0.5rem;
 	}
 	h1.pop-up { font: bold 42px/1 "Raleway"; }
+	.entry { padding: 1rem 1rem 0 0; }
+	.primentry { width: 100%; }
+	.primentry img { position: relative; }
+	.alignright { float: none; margin: 1rem auto; }
+	.ctabtn { width: 85%; }
 }
