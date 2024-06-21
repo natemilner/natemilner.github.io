@@ -39,12 +39,27 @@ line-height: 1.5;
 	padding-top: 1rem;
 	width: 100%;
 }
+#lpwrapper {
+	display: grid;
+	grid-template-areas: 	"lpcontent lpsidebar"
+							"lpfooter lpfooter";
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 30px;
+	grid-row-gap: 1.5rem;
+	max-width: 1100px;
+	margin: 0 auto;
+	padding-top: 1rem;
+	width: 100%;
+}
 .header {
 grid-area: header;
 }
 .footer {
 grid-area: footer;
 text-align: right;	
+}
+.lpfooter {
+grid-area: lpfooter;
 }
 .entry {
 display: inline-grid;
@@ -296,6 +311,14 @@ min-height: 86vh;
 padding: 3rem 1rem 2rem;
 position: relative;
 }
+.lpcontent {
+background: #fff;
+box-shadow: 0 0 10px #ccc;
+grid-area: lpcontent;
+height: fit-content;
+padding: 1rem 2rem 0;
+position: relative;
+}
 .reslist {
 list-style: none;
 margin: 0;
@@ -353,8 +376,29 @@ background: #E9F3F8;
 border: 1px solid #D62828;
 color: #003049;	
 }
+.lpbtn {
+padding: 0.7rem 1rem;
+text-align: center;
+text-transform: uppercase;
+text-decoration: none;
+margin: 0 auto;
+font-size: 26px;
+display: block;
+width: 93%;
+line-height: 1.2;
+font-weight: 600;
+transition: all 500ms ease;
+background: #D62828;
+border: 1px solid #D62828;
+color: #fff;	
+}
+.lpbtn:hover {
+background: #fff;
+border: 1px solid #D62828;
+color: #003049;	
+}
 
-.box {
+/*.box {
 background: #fff;
 border: 1px solid #333;
 border-radius: 10px;
@@ -427,7 +471,7 @@ width: 17rem;
 #cardtwelve.swingleft {
 	-webkit-animation: swing-in-left-fwd 1.1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 3600ms both;
 	        animation: swing-in-left-fwd 1.1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 3600ms both;
-}
+}*/
 
 .sidebar {
 	background: #fff;
@@ -437,6 +481,11 @@ width: 17rem;
 	height: fit-content;
 	margin-top: 5.5rem;
 	padding: 1rem;
+}
+.lpsidebar {
+	grid-area: lpsidebar;
+	height: fit-content;
+	padding: 0 0 0 2rem;
 }
 h3 {
 background: #003049;
@@ -588,9 +637,18 @@ img { height: auto; max-width: 100%; }
 	grid-column-gap: 0;
 	grid-row-gap: 0.5rem;
 	}
+	#lpwrapper {
+	grid-template-areas: 	"lpcontent"
+							"lpsidebar"
+							"lpfooter";
+	grid-template-columns: 94%;
+	grid-column-gap: 0;
+	grid-row-gap: 0.5rem;
+	}
 	.title { width: 95.5%; left: -0.8rem; }
 	h2 { font-size: 20px; }
 	.sidebar { margin-top: 1rem; }
+	.lpsidebar { padding: 0; }
 	#home {
 	grid-template-areas: 	"header"
 							"modulel"
