@@ -667,6 +667,7 @@ img { height: auto; max-width: 100%; }
 	grid-template-areas: 	"header"
 							"modulel"
 							"modulec"
+							"modulef"
 							"moduler"
 							"footer";
 	grid-template-columns: 1fr;
@@ -674,7 +675,8 @@ img { height: auto; max-width: 100%; }
 	grid-row-gap: 0.5rem;
 	}
 	h1.pop-up { font: bold 42px/1 "Raleway"; }
-	.entry { padding: 1rem 1rem 0 0; }
+	.entry { padding: 1rem 1rem 0 0; width: 45%; }
+	.bookimg { height: 13.3rem; }
 	.primentry { width: 100%; }
 	.primentry img { position: relative; }
 	.alignright { float: none; margin: 1rem auto; }
