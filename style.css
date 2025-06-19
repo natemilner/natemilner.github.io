@@ -30,6 +30,7 @@ line-height: 1.5;
 	display: grid;
 	grid-template-areas: 	"header header header"
 							"modulel modulel moduler"
+							"modulef modulef modulef"
 							"footer footer footer";
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-column-gap: 30px;
@@ -67,10 +68,10 @@ margin: 0 0 1rem;
 min-height: 8rem;	
 padding: 1rem 3rem 0 0;	
 position: relative;	
-width: 42%;
+width: 20%; /*42%;*/
 }
 .primentry { 
-border-bottom: 1px dashed #aaa;
+/*border-bottom: 1px dashed #aaa;*/
 min-height: 18.5rem;
 padding: 0 1rem 0 12.9rem;
 width: 57%; 
@@ -99,6 +100,18 @@ width: 68%;
 margin: 0 auto 1rem;
 display: block;
 }
+.bookimg {
+box-shadow: 0 0 3px #333;
+height: 15.3rem;
+width: 90%; 
+margin: 0 auto 1rem;
+overflow:hidden;
+}
+.bookimg img {
+width: 100%;
+height: auto;	
+}
+.bookimg.tall img { margin: -5% 0 0; }
 
 .primentry img {
 position: absolute;
@@ -114,7 +127,7 @@ transition: all 400ms ease;
 color: #FCBF49;
 text-decoration: none;
 }
-.modl, .modr {
+.modl, .modr, .modf {
 background: #fff;
 border: 7px solid #003049;	
 border-radius: 10px;	
@@ -175,6 +188,7 @@ transition: all 500ms ease;
 .mod.modl { grid-area: modulel;	}
 .mod.modc { grid-area: modulec;	}
 .mod.modr { grid-area: moduler;	}
+.mod.modf { grid-area: modulef;	}
 
 h1.pop-up span:first-child {
 	-webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
