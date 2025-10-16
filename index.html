@@ -94,5 +94,16 @@
 			</div>    
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+			$("#mce-EMAIL").blur(function(){
+				$emailval = $(this).val();
+				$emailsplit = $emailval.split('@');
+				$start = $emailsplit[0].slice(-2);
+				$end = $emailsplit[1].slice(-3);
+				if($end === 'xyz' || $start.match(/[0-9]{2}/g)) {
+					$(this).val(' ');
+				}
+			});
+		</script>
 	</body>
 </html>
