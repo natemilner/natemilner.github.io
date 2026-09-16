@@ -72,5 +72,12 @@
 			</div>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+			const links = document.querySelectorAll('a');
+			links.forEach(link => {
+				let href = link.getAttribute('href');
+				link.onclick = () => umami.track('click', { linkURL: href });
+			});
+		</script>
 	</body>
 </html>
